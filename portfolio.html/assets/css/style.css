@@ -1,0 +1,128 @@
+body {
+    font-size: 20px;
+    line-height: 35px;
+    color: gray;
+    background: url("https://previews.123rf.com/images/ookasan/ookasan1612/ookasan161200108/67530209-grunge-white-wood-texture-of-wooden-boards-floor.jpg");
+        
+        
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  img {
+    width: 30%;
+
+  }
+  
+  h1 h2
+   {
+    margin-bottom: 18px;
+  }
+  
+  h1 {
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 35px;
+    border-bottom: 3px solid #ddddddef;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  #h1 {
+    position: fixed;
+    z-index: 95%;
+    width: 100%;
+    margin: 0 0 20px;
+    color: #fff;
+    background: #fff;
+    border-bottom: 3px solid gray;
+  }
+  
+  #p1 {
+    width: 210px;
+    height: 80px;
+    font-size: 35px;
+    line-height: 80px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    text-decoration: dashed;
+    background: rgb(50, 148, 148);
+  }
+  
+  nav {
+    float: right;
+    margin-top: 20px;
+  }
+
+  nav a {
+    padding: 10px;
+    margin: 10px;
+    color: #7d6e50a1;
+    line-height: 20px;
+    border-left: 1px solid #efefefe1;
+    text-decoration: none;
+  }
+  footer {
+    padding: 25px 0;
+    font-size: 20px;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    background: #6c6868;
+    border-top: 6px solid #1aa29b;
+  }
+  
+  .e1 {
+    float: right;
+    max-width: 260px;
+    padding: 25px;
+    border: 1px solid #8d8888b0;
+    background: #ffffffea;
+  }
+  
+  
+  .e1 h2 {
+    border: 1px solid rgb(247, 247, 247);
+  }
+  
+  #a1 {
+    padding-top: 120px;
+  }
+  
+  .b1 {
+    float: left;
+    width: 100%;
+    max-width: 630px;
+    margin: 0 0 50px;
+    padding: 25px;
+    border: 2px solid #ddddddef; 
+    background: #ffffffdc;
+}
+.picture {
+ position: relative;
+ float: left;
+ width: 265px;
+ margin: 24px 0 24px;
+}
+.picture:nth-child(even) {
+  margin-right: 20px;
+}
+.picture img {
+  width: 100%;
+}
+.picture p {
+  position: absolute;
+  bottom: 18px;
+  width: 100%;
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(108, 148, 135);
+}
